@@ -118,7 +118,7 @@ PARCOR_shrinkage <- function(Y, P,
   data <- build_model(F1_fwd = Y, F1_bwd = Y, P = P,
                       m = 1, K = K, n_Total = n_Total)
   #browser()
-  res <- rep(list(NA), P)
+  #res <- rep(list(NA), P)
 
 
   ##
